@@ -2,10 +2,12 @@ import React from 'react'
 import {Segment, Image} from 'semantic-ui-react'
 
 const Parents = () => (
-  <Segment>
+  <Segment.Group>
+    <Image.Group>
   <Image src='/images/mum.png' size='small' circular bordered centered />
   <Image src='/images/dad.png' size='small' circular bordered centered />
-  </Segment>
+  </Image.Group>
+  </Segment.Group>
 )
 
 export default Parents
