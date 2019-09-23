@@ -3,27 +3,21 @@ import { Dropdown, Icon } from 'semantic-ui-react'
 
 const trigger = (
   <span>
-    <Icon name='user' /> Hello, Tyler
+    <Icon name='user' /> Family Members
   </span>
 )
 
 const options = [
-  {
-    key: 'user',
-    text: (
-      <span>
-        Signed in as <strong>Tyler Vincent</strong>
-      </span>
-    ),
-    disabled: true,
-  },
-  { key: 'profile', text: 'Your Profile' },
-  { key: 'chores', text: 'Chores' },
-  { key: 'messages', text: 'Messages' },
-  { key: 'events', text: 'Events' },
-  { key: 'shopping', text: 'Shopping list' },
-  { key: 'dinner', text: 'Dinner tonight' },
-  { key: 'sign-out', text: 'Sign Out' },
+  { key: 'mum', text: 'Mum' },
+  { key: 'dad', text: 'Dad' },
+  { key: 'Alex', text: 'Alex' },
+  { key: 'Tyler', text: 'Tyler' },
+  { key: 'Tama', text: 'Tama' },
+  { key: 'Zyrante', text: 'Zyrante' },
+  { key: 'Tynika', text: 'Tynika' },
+  { key: 'Leah', text: 'Leah' },
+  { key: 'Aaron', text: 'Aaron' },
+  { key: 'TeOneroa', text: 'TeOneroa' },
 ]
 
 const Hello = () => (

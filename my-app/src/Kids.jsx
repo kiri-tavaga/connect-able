@@ -2,21 +2,27 @@ import React from 'react'
 import {Segment, Image, Divider} from 'semantic-ui-react'
 import Alex from './Alex'
 import Tyler from './Tyler'
+import Zyrante from './Zyrante'
+import Tama from './Tama'
+import Aaron from './Aaron'
+import TeOneroa from './TeOneroa'
+import Leah from './Leah'
+import Tynika from './Tynika'
 
 const Kids = () => (
   <Segment.Group>
     <Image.Group>
       <Alex />
       <Tyler />
-      <Image src='/images/Zyrante.png' size='small' circular bordered centered />
-      <Image src='/images/Tama.png' size='small' circular bordered centered />
+      <Zyrante />
+      <Tama />
     </Image.Group>
     <Divider hidden />
     <Image.Group>
-      <Image src='/images/Alex.png' size='small' circular bordered centered />
-      <Image src='/images/Leah.png' size='small' circular bordered centered />
-      <Image src='/images/Tynika.png' size='small' circular bordered centered />
-      <Image src='/images/Zyrante.png' size='small' circular bordered centered />
+      <Aaron />
+      <Leah />
+      <Tynika />
+      <TeOneroa />
     </Image.Group>
   </Segment.Group>
 )
