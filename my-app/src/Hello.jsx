@@ -18,11 +18,11 @@ const options = [
     disabled: true,
   },
   { key: 'profile', text: 'Your Profile' },
-  { key: 'stars', text: 'Chores' },
-  { key: 'explore', text: 'Messages' },
-  { key: 'integrations', text: 'Events' },
-  { key: 'help', text: 'Shopping list' },
-  { key: 'settings', text: 'Dinner tonight' },
+  { key: 'chores', text: 'Chores' },
+  { key: 'messages', text: 'Messages' },
+  { key: 'events', text: 'Events' },
+  { key: 'shopping', text: 'Shopping list' },
+  { key: 'dinner', text: 'Dinner tonight' },
   { key: 'sign-out', text: 'Sign Out' },
 ]
 

@@ -1,11 +1,13 @@
 import React from 'react'
 import {Segment, Image} from 'semantic-ui-react'
+import Mum from './Mum'
+import Dad from './Dad'
 
 const Parents = () => (
   <Segment.Group>
     <Image.Group>
-  <Image src='/images/mum.png' size='small' circular bordered centered />
-  <Image src='/images/dad.png' size='small' circular bordered centered />
+    <Mum />
+    <Dad />
   </Image.Group>
   </Segment.Group>
 )
